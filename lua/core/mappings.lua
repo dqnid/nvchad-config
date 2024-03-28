@@ -16,6 +16,8 @@ M.general = {
   },
 
   n = {
+    ["s"] = { ":set spell! <CR>", "Toggle spell" },
+
     ["<Esc>"] = { "<cmd> noh <CR>", "Clear highlights" },
     -- switch between windows
     ["<C-h>"] = { "<C-w>h", "Window left" },
